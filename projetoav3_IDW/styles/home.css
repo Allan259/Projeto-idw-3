@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body{
+    background-image: linear-gradient(to bottom, #c74130, #d2383e, #dc2d4d, #e5205e, #eb1271);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cardsdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cards{
+    width: 130px;
+    height: 200px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.cards img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    background-color: #C74130;
+    margin: 0;
+    border-radius: 10px;
+}

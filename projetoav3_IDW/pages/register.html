@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles/register.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="body">
+    <div class="container">
+        <span style="font-size: xx-large; font-weight: 650; color: #c74130;">Cadastro</span>
+        <form action="" method="POST" class="entry">
+            <div style="width: 100%;">
+                <span style="font-weight: 700; font-size: medium;">Nome:</span>
+                <input type="text" placeholder="Digite seu nome">
+            </div>
+            <div style="width: 100%;">
+                <span style="font-weight: 700; font-size: medium;">E-mail:</span>
+                <input type="email" placeholder="Digite seu e-mail">
+            </div>
+            <div style="width: 100%;">
+                <span style="font-weight: 700; font-size: medium;">Senha:</span>
+                <input type="password" placeholder="Digite sua senha">
+            </div>
+            <div style="width: 100%;">
+                <span style="font-weight: 700; font-size: medium;">Animes favoritos:</span>
+                <div class="favorites">
+                    <label class="checkbox-label">
+                        <span>Berserk</span>
+                        <input type="checkbox" id="berserk">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Atack on titan</span>
+                        <input type="checkbox" id="atackontitan">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>One Piece</span>
+                        <input type="checkbox" id="onepiece">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Os cavaleiros do Zodiaco</span>
+                        <input type="checkbox" id="cavaleirosdozodiaco">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Death Note</span>
+                        <input type="checkbox" id="deathnote">
+                    </label>
+                </div>
+            </div>
+            <input type="submit" value="Cadastrar" class="button">
+        </form>
+        <div>
+            <span>Já possui conta? </span><a href="login.html" style="color: #c74130; text-decoration: none;">Faça login</a>
+        </div>
+    </div>
+
+    <script src="../js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body{
+    background-image: linear-gradient(to bottom, #c74130, #d2383e, #dc2d4d, #e5205e, #eb1271);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.entry{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    padding-block: 3px;
+    margin-block: 10px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: rgb(214, 214, 214);
+    border-style: solid;
+}
+
+input:focus{
+    outline: none;
+    border-color: rgb(214, 214, 214);
+}
+
+.favorites{
+    width: 100%;
+    height: 125px;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.button{
+    font-weight: 500;
+    font-size: medium;
+    background-color: #C74130;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.checkbox-label {
+    display: flex;
+    justify-content: space-around;
+    user-select: none;
+    font-size: 20px;
+    color: #333;
+    margin-block: 1px;
+}
+
+.checkbox-label input {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.checkbox-label span {
+    font-size: medium;
+    font-weight: 500;
+    display: inline-block;
+    padding: 5px 5px;
+    border: 0;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
